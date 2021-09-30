@@ -1,2 +1,3 @@
-# Git Practice
-A simple project to practice a few git/github workflows.  Replace the contents of this file with the contents indicated in the [instructions](./instructions.md).
+## [To type or not to type: quantifying detectable bugs i n JavaScript](https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/)
+
+In my (limited) experience, typing sytsems have helped me catch a lot of typing-related errors when varied types were used, e.g. passing in a string as an argument when the lengthof the string was expected. The bugs that slipped through were often logical ones, where a typing ssytem couldn't be expected to check. This interests me because I often jump onto a typing system if it's offered, but sometimes I just want thing s to *work*. The type could be very unwieldy or it's a type that follows a certain pattern (ex. [sequence container](https://en.cppreference.com/w/cpp/named_req/SequenceContainer)), that I would prefer the compiler/runtime to check automatically for me with type deduction. Without nice type deduction support, I've often thrown away soemthing just to make code function. I like typing in both senses.
